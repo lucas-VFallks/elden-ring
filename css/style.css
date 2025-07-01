@@ -1,0 +1,171 @@
+@font-face{
+    font-family: 'font';
+    src: url('../font/gratis_neue/Gratis\ Neue.otf') format('otf');
+    
+}
+
+*{
+    /*inicio da contribuição do professor*/
+    user-select: none;
+    /*fim da contribuição do professor*/
+    margin: 0px;
+    padding: 0px;
+    font-family: "font";
+    color: rgb(47, 71, 204);   
+}
+
+body{
+    background-image: url(../img/ranni.webp);
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    background-size: cover;
+    height: 98vh;
+    width: 100%;
+    
+}
+
+div{
+    height: 25%;
+    width: 100%;
+}
+.filter{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.863);
+    
+}
+
+
+#download{
+    height: 60px;
+    margin-top: 30%;
+    border-radius:  25px;
+    width: 190px;
+    padding: 10px 20px; 
+    color: black ;
+    background-image: linear-gradient(to right, rgb(47, 71, 204 ), rgb(95, 108, 175));
+    
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-left: 150px;
+    
+}
+.logo{
+    height: 30px;
+}
+.img1 {
+    position: relative;
+    right: 170px;
+    box-shadow: 0px 0px 100px black;
+    height: 100%;
+    
+}
+.img2{
+    position: relative;
+    right: 150px;
+    box-shadow: 0px 0px 100px black;
+    height: 100%;
+    border-radius: 30px;
+}
+.img3{
+    position: relative;
+    right: 100px;
+    box-shadow: 0px 0px 100px black;
+    height: 100%;
+    border-radius: 30px;
+    
+}
+#title1{
+    margin-top:  10%;
+    font-size: 75px;
+}
+#title2{ 
+    font-size: 25px;
+}
+.clip-img{
+    height: 450px;
+    width: 450px;
+    overflow: hidden;
+    margin-right: 10%;
+    border-radius: 300px;
+    box-shadow: 10px 10px 25px rgb(218, 240, 245);
+}
+section:nth-of-type(2){
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(129, 145, 238);
+    font-size: 30px;
+}
+
+section:nth-of-type(2) p{
+    color: black;
+}
+
+footer{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+P{
+    width: 50%;
+    text-align: center;
+}
+section:nth-of-type(3) h4{
+    font-size: 50px;  
+    margin-top: 150px;
+}
+section:nth-of-type(3) p{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 80%; 
+}
+strong{
+    color: rgb(47, 71, 204);
+}
+div:last-child h4{
+    font-size: 35px;
+}
+
+section:first-of-type .left{
+    margin-top: 30px;
+}
+section:last-of-type .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    text-align: left;
+}
+section:nth-of-type(4) h4{
+    font-size: 50px; 
+    margin-top: 45px; 
+}
+section:nth-of-type(4) P{
+    text-align: left; 
+    margin-top: 50px;
+    font-size: 20px;
+    width: 80%; 
+}
+section:nth-of-type(4) .right{
+    align-items: center;
+   justify-content:  flex-start;
+}
+
